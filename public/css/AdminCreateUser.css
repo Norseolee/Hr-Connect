@@ -1,0 +1,27 @@
+.section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--Nuetrals100);
+
+    padding: 10px;
+    margin: 20px;
+}
+
+.section_content {
+    margin: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.section_content label {
+    color: var(--Brand);
+    font-size: 20px;
+}
+
+.section_content select,
+.section_content input {
+    border-radius: 5px;
+    border: 1px solid var(--Brand);
+    height: 45px;
+}

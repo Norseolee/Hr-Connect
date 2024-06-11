@@ -1,0 +1,4 @@
+version: 1
+buildCommand: npm install
+preDeployCommand: # Add any pre-deployment commands if needed
+startCommand: php artisan serve --host=0.0.0.0 --port=$PORT

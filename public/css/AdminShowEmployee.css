@@ -1,0 +1,87 @@
+body {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.section {
+    background-color: var(--Nuetrals100);
+    margin: 10px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+.top_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_title {
+    color: var(--Brand);
+}
+
+.picture {
+    border-radius: 50%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+}
+.picture img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-group label {
+    color: var(--Brand);
+    margin-right: 10px;
+}
+.form-group input,
+.form-group select {
+    border: var(--Brand) solid 1px;
+    border-radius: 3px;
+    height: 40px;
+}
+
+.personal_information div,
+.other_information div,
+.contact_information div,
+.section_content div {
+    display: flex;
+}
+.title_information {
+    width: 50%;
+}
+.information {
+    background-color: white;
+    border-radius: 3px;
+    padding-inline: 10px;
+    width: 50%;
+    -webkit-user-select: all;
+    user-select:all;
+}
+.picturebtn {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+#formpreview {
+    border: 1px solid var(--Brand);
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    height: 100%;
+}
+.update {
+    align-self: center;
+}

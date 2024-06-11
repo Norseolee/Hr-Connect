@@ -1,0 +1,54 @@
+.font-style {
+    color: var(--Brand);
+}
+
+.panel {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 10px;
+
+    gap: 10px;
+}
+.panel > div {
+    background: var(--Nuetrals100);
+    padding-inline: 30px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+}
+
+.notification {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin: 10px;
+}
+
+.notification > div {
+    flex: 1;
+    min-width: 350px;
+    margin: 10px;
+}
+
+.notice_content,
+.event_content {
+    display: flex;
+    flex-direction: column;
+    background: var(--Nuetrals100);
+
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.notice_info,
+.event_info {
+    display: flex;
+    justify-content: space-between;
+}

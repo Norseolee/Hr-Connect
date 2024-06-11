@@ -1,0 +1,76 @@
+.login {
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    position: relative;
+    background-color: rgb(90, 33, 131);
+}
+
+.SignIn {
+    position: absolute;
+    inset-inline: auto;
+    top: 20vh;
+}
+
+.SignIn > img {
+    margin-top: -30px;
+    padding-top: 50px;
+    padding-bottom: -50px;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    object-position: top;
+    background-color: rgba(146, 53, 232, 0.7);
+    border-radius: 30px;
+}
+
+.form-login {
+    margin-top: 30px;
+    position: relative;
+}
+
+.form-login input[type="text"],
+.form-login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: whtie;
+    color: #290a6f;
+}
+
+.form-login input[type="text"]:focus,
+.form-login input[type="password"]:focus {
+    background-color: var(--Nuetrals100);
+    outline: none;
+}
+
+.form-login input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--Brand);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: background-color 0.5s;
+}
+
+.form-login input[type="submit"]:hover {
+    background-color: var(--Brand-Hover);
+}
+
+.form-login label {
+    margin-top: -15px;
+    padding-inline: 10px;
+    margin-left: 10px;
+    position: fixed;
+    color: var(--Brand900);
+    background-color: var(--Brand-label);
+    border-radius: 5px;
+}

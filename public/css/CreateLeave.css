@@ -1,0 +1,58 @@
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-weight: bold;
+    color: rgba(146, 53, 232, 1);
+    margin-bottom: 10px;
+}
+
+.section-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    margin: 10px;
+    background-color: var(--Nuetrals100);
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: rgba(59, 16, 134, 1);
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(41, 10, 111, 1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(41, 10, 111, 1);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.list {
+    margin-right: 20px;
+}
+
+.list_one {
+    background-color: var(--Nuetrals100);
+    border-radius: 5px;
+}
+
+.list_two {
+    background-color: var(--Nuetrals100);
+    border-radius: 10px;
+}

@@ -1,0 +1,32 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding-inline: 20px;
+}
+
+.Position_List,
+.Department_List {
+    width: 100%;
+}
+
+.card {
+    margin: 20px;
+    background-color: var(--Nuetrals100);
+}
+
+.form-group {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.form-group label {
+    font-size: 23px;
+    color: var(--Brand);
+}
+.form-group input[type="text"] {
+    border: 1px solid var(--Brand);
+    border-radius: 5px;
+    width: 300px;
+}

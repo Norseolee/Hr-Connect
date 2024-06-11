@@ -1,0 +1,12 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding-inline: 20px;
+}
+
+.Position_List,
+.Department_List {
+    width: 100%;
+}

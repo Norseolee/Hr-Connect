@@ -1,0 +1,21 @@
+.button {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+
+    margin-left: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding-inline: 20px;
+}
+.Position_List,
+.Department_List {
+    width: 100%;
+}
+
